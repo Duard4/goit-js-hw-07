@@ -1,0 +1,22 @@
+.controls {
+    padding: 32px;
+    background: #f6f6fe;
+    display: flex;
+    max-width: 486px;
+    gap: 16px;
+    margin: 0 auto 16px;
+    .input {
+        min-width: 150px;
+    }
+    .btn {
+        min-width: 120px;
+    }
+}
+.boxes {
+    max-width: 486px;
+    padding: 32px;
+    background: var(--light-blue);
+    margin: 0 auto 16px;
+    display: flex;
+    justify-content: space-evenly;
+}

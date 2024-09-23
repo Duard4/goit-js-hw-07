@@ -1,0 +1,30 @@
+.input {
+    max-width: 360px;
+}
+.input:hover {
+    border-color: var(--black);
+}
+.name__input {
+    margin-bottom: 16px;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: fit-content;
+}
+.form__input {
+    margin-top: 8px;
+    width: 100%;
+}
+.form__input::placeholder {
+    color: var(--white);
+}
+.form__input:active::placeholder,
+.form__input:focus-within::placeholder {
+    color: var(--grey);
+}
+.form__btn {
+    margin-top: 8px;
+}
