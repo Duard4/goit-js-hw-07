@@ -15,10 +15,11 @@ ul {
     list-style: none;
 }
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
-a, a:active {
-  color: inherit;
+a,
+a:active {
+    color: inherit;
 }
 :root {
     --black: #2e2f42;
@@ -29,6 +30,7 @@ a, a:active {
     --hred: #ff7070;
     --white: #fafafa;
     --light-blue: #f6f6fe;
+    --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 body {
     margin: 16px;
@@ -40,6 +42,10 @@ body {
     background-color: var(--white);
     color: var(--black);
     line-height: 1.5;
+    transition: background var(--animation);
+}
+.color {
+    transition: background var(--animation);
 }
 .blue {
     background-color: var(--blue);
@@ -79,13 +85,14 @@ body {
     border: none;
     color: #fff;
     font-weight: 500;
+    transition: background var(--animation);
 }
 .widget {
-  text-align: center;
+    text-align: center;
 }
 .widget__btn {
-  margin-top: 16px;
+    margin-top: 16px;
 }
 .menu__list {
-  font-size: 18px;
+    font-size: 18px;
 }
